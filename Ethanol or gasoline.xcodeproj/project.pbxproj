@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51493033297EF32300C366B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51493032297EF32300C366B5 /* AppDelegate.swift */; };
+		51493035297EF32300C366B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51493034297EF32300C366B5 /* SceneDelegate.swift */; };
+		51493037297EF32300C366B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51493036297EF32300C366B5 /* ViewController.swift */; };
+		5149303A297EF32300C366B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51493038297EF32300C366B5 /* Main.storyboard */; };
+		5149303C297EF32400C366B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5149303B297EF32400C366B5 /* Assets.xcassets */; };
+		5149303F297EF32400C366B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5149303D297EF32400C366B5 /* LaunchScreen.storyboard */; };
+		5149304A297EF32400C366B5 /* Ethanol_or_gasolineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51493049297EF32400C366B5 /* Ethanol_or_gasolineTests.swift */; };
+		51493054297EF32400C366B5 /* Ethanol_or_gasolineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51493053297EF32400C366B5 /* Ethanol_or_gasolineUITests.swift */; };
+		51493056297EF32400C366B5 /* Ethanol_or_gasolineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51493055297EF32400C366B5 /* Ethanol_or_gasolineUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51493046297EF32400C366B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51493027297EF32300C366B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5149302E297EF32300C366B5;
+			remoteInfo = "Ethanol or gasoline";
+		};
+		51493050297EF32400C366B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51493027297EF32300C366B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5149302E297EF32300C366B5;
+			remoteInfo = "Ethanol or gasoline";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5149302F297EF32300C366B5 /* Ethanol or gasoline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ethanol or gasoline.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51493032297EF32300C366B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		51493034297EF32300C366B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		51493036297EF32300C366B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		51493039297EF32300C366B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5149303B297EF32400C366B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5149303E297EF32400C366B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		51493040297EF32400C366B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51493045297EF32400C366B5 /* Ethanol or gasolineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ethanol or gasolineTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51493049297EF32400C366B5 /* Ethanol_or_gasolineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ethanol_or_gasolineTests.swift; sourceTree = "<group>"; };
+		5149304F297EF32400C366B5 /* Ethanol or gasolineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ethanol or gasolineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51493053297EF32400C366B5 /* Ethanol_or_gasolineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ethanol_or_gasolineUITests.swift; sourceTree = "<group>"; };
+		51493055297EF32400C366B5 /* Ethanol_or_gasolineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ethanol_or_gasolineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5149302C297EF32300C366B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51493042297EF32400C366B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5149304C297EF32400C366B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51493026297EF32300C366B5 = {
+			isa = PBXGroup;
+			children = (
+				51493031297EF32300C366B5 /* Ethanol or gasoline */,
+				51493048297EF32400C366B5 /* Ethanol or gasolineTests */,
+				51493052297EF32400C366B5 /* Ethanol or gasolineUITests */,
+				51493030297EF32300C366B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51493030297EF32300C366B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5149302F297EF32300C366B5 /* Ethanol or gasoline.app */,
+				51493045297EF32400C366B5 /* Ethanol or gasolineTests.xctest */,
+				5149304F297EF32400C366B5 /* Ethanol or gasolineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51493031297EF32300C366B5 /* Ethanol or gasoline */ = {
+			isa = PBXGroup;
+			children = (
+				51493032297EF32300C366B5 /* AppDelegate.swift */,
+				51493034297EF32300C366B5 /* SceneDelegate.swift */,
+				51493036297EF32300C366B5 /* ViewController.swift */,
+				51493038297EF32300C366B5 /* Main.storyboard */,
+				5149303B297EF32400C366B5 /* Assets.xcassets */,
+				5149303D297EF32400C366B5 /* LaunchScreen.storyboard */,
+				51493040297EF32400C366B5 /* Info.plist */,
+			);
+			path = "Ethanol or gasoline";
+			sourceTree = "<group>";
+		};
+		51493048297EF32400C366B5 /* Ethanol or gasolineTests */ = {
+			isa = PBXGroup;
+			children = (
+				51493049297EF32400C366B5 /* Ethanol_or_gasolineTests.swift */,
+			);
+			path = "Ethanol or gasolineTests";
+			sourceTree = "<group>";
+		};
+		51493052297EF32400C366B5 /* Ethanol or gasolineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				51493053297EF32400C366B5 /* Ethanol_or_gasolineUITests.swift */,
+				51493055297EF32400C366B5 /* Ethanol_or_gasolineUITestsLaunchTests.swift */,
+			);
+			path = "Ethanol or gasolineUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5149302E297EF32300C366B5 /* Ethanol or gasoline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51493059297EF32400C366B5 /* Build configuration list for PBXNativeTarget "Ethanol or gasoline" */;
+			buildPhases = (
+				5149302B297EF32300C366B5 /* Sources */,
+				5149302C297EF32300C366B5 /* Frameworks */,
+				5149302D297EF32300C366B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ethanol or gasoline";
+			productName = "Ethanol or gasoline";
+			productReference = 5149302F297EF32300C366B5 /* Ethanol or gasoline.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51493044297EF32400C366B5 /* Ethanol or gasolineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5149305C297EF32400C366B5 /* Build configuration list for PBXNativeTarget "Ethanol or gasolineTests" */;
+			buildPhases = (
+				51493041297EF32400C366B5 /* Sources */,
+				51493042297EF32400C366B5 /* Frameworks */,
+				51493043297EF32400C366B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51493047297EF32400C366B5 /* PBXTargetDependency */,
+			);
+			name = "Ethanol or gasolineTests";
+			productName = "Ethanol or gasolineTests";
+			productReference = 51493045297EF32400C366B5 /* Ethanol or gasolineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5149304E297EF32400C366B5 /* Ethanol or gasolineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5149305F297EF32400C366B5 /* Build configuration list for PBXNativeTarget "Ethanol or gasolineUITests" */;
+			buildPhases = (
+				5149304B297EF32400C366B5 /* Sources */,
+				5149304C297EF32400C366B5 /* Frameworks */,
+				5149304D297EF32400C366B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51493051297EF32400C366B5 /* PBXTargetDependency */,
+			);
+			name = "Ethanol or gasolineUITests";
+			productName = "Ethanol or gasolineUITests";
+			productReference = 5149304F297EF32400C366B5 /* Ethanol or gasolineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51493027297EF32300C366B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5149302E297EF32300C366B5 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					51493044297EF32400C366B5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5149302E297EF32300C366B5;
+					};
+					5149304E297EF32400C366B5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5149302E297EF32300C366B5;
+					};
+				};
+			};
+			buildConfigurationList = 5149302A297EF32300C366B5 /* Build configuration list for PBXProject "Ethanol or gasoline" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51493026297EF32300C366B5;
+			productRefGroup = 51493030297EF32300C366B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5149302E297EF32300C366B5 /* Ethanol or gasoline */,
+				51493044297EF32400C366B5 /* Ethanol or gasolineTests */,
+				5149304E297EF32400C366B5 /* Ethanol or gasolineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5149302D297EF32300C366B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5149303F297EF32400C366B5 /* LaunchScreen.storyboard in Resources */,
+				5149303C297EF32400C366B5 /* Assets.xcassets in Resources */,
+				5149303A297EF32300C366B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51493043297EF32400C366B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5149304D297EF32400C366B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5149302B297EF32300C366B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51493037297EF32300C366B5 /* ViewController.swift in Sources */,
+				51493033297EF32300C366B5 /* AppDelegate.swift in Sources */,
+				51493035297EF32300C366B5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51493041297EF32400C366B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5149304A297EF32400C366B5 /* Ethanol_or_gasolineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5149304B297EF32400C366B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51493054297EF32400C366B5 /* Ethanol_or_gasolineUITests.swift in Sources */,
+				51493056297EF32400C366B5 /* Ethanol_or_gasolineUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51493047297EF32400C366B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5149302E297EF32300C366B5 /* Ethanol or gasoline */;
+			targetProxy = 51493046297EF32400C366B5 /* PBXContainerItemProxy */;
+		};
+		51493051297EF32400C366B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5149302E297EF32300C366B5 /* Ethanol or gasoline */;
+			targetProxy = 51493050297EF32400C366B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51493038297EF32300C366B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51493039297EF32300C366B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5149303D297EF32400C366B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5149303E297EF32400C366B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51493057297EF32400C366B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		51493058297EF32400C366B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5149305A297EF32400C366B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ethanol or gasoline/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.developer.Ethanol-or-gasoline";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5149305B297EF32400C366B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ethanol or gasoline/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.developer.Ethanol-or-gasoline";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5149305D297EF32400C366B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.developer.Ethanol-or-gasolineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ethanol or gasoline.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ethanol or gasoline";
+			};
+			name = Debug;
+		};
+		5149305E297EF32400C366B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.developer.Ethanol-or-gasolineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ethanol or gasoline.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ethanol or gasoline";
+			};
+			name = Release;
+		};
+		51493060297EF32400C366B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.developer.Ethanol-or-gasolineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ethanol or gasoline";
+			};
+			name = Debug;
+		};
+		51493061297EF32400C366B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.developer.Ethanol-or-gasolineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ethanol or gasoline";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5149302A297EF32300C366B5 /* Build configuration list for PBXProject "Ethanol or gasoline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51493057297EF32400C366B5 /* Debug */,
+				51493058297EF32400C366B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51493059297EF32400C366B5 /* Build configuration list for PBXNativeTarget "Ethanol or gasoline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5149305A297EF32400C366B5 /* Debug */,
+				5149305B297EF32400C366B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5149305C297EF32400C366B5 /* Build configuration list for PBXNativeTarget "Ethanol or gasolineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5149305D297EF32400C366B5 /* Debug */,
+				5149305E297EF32400C366B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5149305F297EF32400C366B5 /* Build configuration list for PBXNativeTarget "Ethanol or gasolineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51493060297EF32400C366B5 /* Debug */,
+				51493061297EF32400C366B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51493027297EF32300C366B5 /* Project object */;
+}
